@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -88,7 +88,6 @@
 				8D43A774E94064BCEF976C4E /* Pods-CourtControl.debug.xcconfig */,
 				0229FDBE5F74AFC29F1BDB7D /* Pods-CourtControl.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -357,6 +356,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7W9W6Y2AXQ;
 				INFOPLIST_FILE = CourtControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -376,6 +376,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7W9W6Y2AXQ;
 				INFOPLIST_FILE = CourtControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

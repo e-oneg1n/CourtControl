@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0AAAD2003841083D008359E8 /* Pods_CourtControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 834A7E74E26BCD0AB659BB94 /* Pods_CourtControl.framework */; };
+		BB4EFBE6245A1DF900892318 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4EFBE5245A1DF900892318 /* ViewController.swift */; };
 		BBB1A7012458CF7E00731CAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB1A7002458CF7E00731CAB /* AppDelegate.swift */; };
 		BBB1A7032458CF7E00731CAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB1A7022458CF7E00731CAB /* SceneDelegate.swift */; };
-		BBB1A7052458CF7E00731CAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB1A7042458CF7E00731CAB /* ViewController.swift */; };
 		BBB1A7082458CF7E00731CAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBB1A7062458CF7E00731CAB /* Main.storyboard */; };
 		BBB1A70A2458CF8100731CAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBB1A7092458CF8100731CAB /* Assets.xcassets */; };
 		BBB1A70D2458CF8100731CAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBB1A70B2458CF8100731CAB /* LaunchScreen.storyboard */; };
@@ -20,10 +20,10 @@
 		0229FDBE5F74AFC29F1BDB7D /* Pods-CourtControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourtControl.release.xcconfig"; path = "Target Support Files/Pods-CourtControl/Pods-CourtControl.release.xcconfig"; sourceTree = "<group>"; };
 		834A7E74E26BCD0AB659BB94 /* Pods_CourtControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CourtControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D43A774E94064BCEF976C4E /* Pods-CourtControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourtControl.debug.xcconfig"; path = "Target Support Files/Pods-CourtControl/Pods-CourtControl.debug.xcconfig"; sourceTree = "<group>"; };
+		BB4EFBE5245A1DF900892318 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BBB1A6FD2458CF7E00731CAB /* CourtControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CourtControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB1A7002458CF7E00731CAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBB1A7022458CF7E00731CAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BBB1A7042458CF7E00731CAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BBB1A7072458CF7E00731CAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BBB1A7092458CF8100731CAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBB1A70C2458CF8100731CAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,6 +50,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BB1A0FF5245A1BDC0069B81F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BB1A0FF8245A1CDA0069B81F /* Identity */,
+				BBB1A7062458CF7E00731CAB /* Main.storyboard */,
+				BBB1A70B2458CF8100731CAB /* LaunchScreen.storyboard */,
+				BB4EFBE5245A1DF900892318 /* ViewController.swift */,
+				BBB1A7002458CF7E00731CAB /* AppDelegate.swift */,
+				BBB1A7022458CF7E00731CAB /* SceneDelegate.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BB1A0FF8245A1CDA0069B81F /* Identity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Identity;
+			sourceTree = "<group>";
+		};
 		BBB1A6F42458CF7E00731CAB = {
 			isa = PBXGroup;
 			children = (
@@ -71,12 +91,8 @@
 		BBB1A6FF2458CF7E00731CAB /* CourtControl */ = {
 			isa = PBXGroup;
 			children = (
-				BBB1A7002458CF7E00731CAB /* AppDelegate.swift */,
-				BBB1A7022458CF7E00731CAB /* SceneDelegate.swift */,
-				BBB1A7042458CF7E00731CAB /* ViewController.swift */,
-				BBB1A7062458CF7E00731CAB /* Main.storyboard */,
+				BB1A0FF5245A1BDC0069B81F /* Classes */,
 				BBB1A7092458CF8100731CAB /* Assets.xcassets */,
-				BBB1A70B2458CF8100731CAB /* LaunchScreen.storyboard */,
 				BBB1A70E2458CF8100731CAB /* Info.plist */,
 			);
 			path = CourtControl;
@@ -206,7 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBB1A7052458CF7E00731CAB /* ViewController.swift in Sources */,
+				BB4EFBE6245A1DF900892318 /* ViewController.swift in Sources */,
 				BBB1A7012458CF7E00731CAB /* AppDelegate.swift in Sources */,
 				BBB1A7032458CF7E00731CAB /* SceneDelegate.swift in Sources */,
 			);
@@ -238,6 +254,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -298,6 +315,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

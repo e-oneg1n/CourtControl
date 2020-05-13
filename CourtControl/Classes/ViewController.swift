@@ -7,13 +7,14 @@
 //
 
 import UIKit
+import Networking
 
 class ViewController: UIViewController {
 
     // MARK: - @IBActions
     
     @IBAction func signUp(_ sender: UIButton) {
-        let signUpViewController = SignUpViewController()
+        let signUpViewController = SignUpViewController(signUpService: SignUpService())
         
         let navigationController = UINavigationController()
         navigationController.navigationBar.prefersLargeTitles = true

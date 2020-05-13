@@ -8,10 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		0AAAD2003841083D008359E8 /* Pods_CourtControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 834A7E74E26BCD0AB659BB94 /* Pods_CourtControl.framework */; };
+		7152EB08A8536FF17C986FCF /* Pods_Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7C482C18A3E46D9FBB7482 /* Pods_Networking.framework */; };
+		BB121A33246C9451001AA9AE /* Networking.h in Headers */ = {isa = PBXBuildFile; fileRef = BB121A31246C9451001AA9AE /* Networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB121A36246C9451001AA9AE /* Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB121A2F246C9451001AA9AE /* Networking.framework */; };
+		BB121A37246C9451001AA9AE /* Networking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BB121A2F246C9451001AA9AE /* Networking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BB121A3F246C94D0001AA9AE /* SignUpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB121A3E246C94D0001AA9AE /* SignUpService.swift */; };
 		BB38724124635313003DFBF7 /* SignUpInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB38724024635313003DFBF7 /* SignUpInfoCell.swift */; };
 		BB387244246353D2003DFBF7 /* ReuseIdentifying.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB387243246353D2003DFBF7 /* ReuseIdentifying.swift */; };
 		BB38724624635497003DFBF7 /* SignUpActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB38724524635497003DFBF7 /* SignUpActionCell.swift */; };
 		BB4EFBE6245A1DF900892318 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4EFBE5245A1DF900892318 /* ViewController.swift */; };
+		BB579FBB246C978700AD6933 /* SignUpInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB579FBA246C978700AD6933 /* SignUpInfo.swift */; };
 		BBB1A7012458CF7E00731CAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB1A7002458CF7E00731CAB /* AppDelegate.swift */; };
 		BBB1A7032458CF7E00731CAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB1A7022458CF7E00731CAB /* SceneDelegate.swift */; };
 		BBB1A7082458CF7E00731CAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBB1A7062458CF7E00731CAB /* Main.storyboard */; };
@@ -20,14 +26,45 @@
 		BBCF1433245A29530067737F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCF1432245A29530067737F /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		BB121A34246C9451001AA9AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBB1A6F52458CF7E00731CAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB121A2E246C9451001AA9AE;
+			remoteInfo = Networking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BB121A38246C9451001AA9AE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BB121A37246C9451001AA9AE /* Networking.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0229FDBE5F74AFC29F1BDB7D /* Pods-CourtControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourtControl.release.xcconfig"; path = "Target Support Files/Pods-CourtControl/Pods-CourtControl.release.xcconfig"; sourceTree = "<group>"; };
+		2EDC4A79F355E376C1B23354 /* Pods-Networking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Networking.release.xcconfig"; path = "Target Support Files/Pods-Networking/Pods-Networking.release.xcconfig"; sourceTree = "<group>"; };
+		6F7C482C18A3E46D9FBB7482 /* Pods_Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		834A7E74E26BCD0AB659BB94 /* Pods_CourtControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CourtControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D43A774E94064BCEF976C4E /* Pods-CourtControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourtControl.debug.xcconfig"; path = "Target Support Files/Pods-CourtControl/Pods-CourtControl.debug.xcconfig"; sourceTree = "<group>"; };
+		BB121A2F246C9451001AA9AE /* Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB121A31246C9451001AA9AE /* Networking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Networking.h; sourceTree = "<group>"; };
+		BB121A32246C9451001AA9AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB121A3E246C94D0001AA9AE /* SignUpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpService.swift; sourceTree = "<group>"; };
 		BB38724024635313003DFBF7 /* SignUpInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpInfoCell.swift; sourceTree = "<group>"; };
 		BB387243246353D2003DFBF7 /* ReuseIdentifying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseIdentifying.swift; sourceTree = "<group>"; };
 		BB38724524635497003DFBF7 /* SignUpActionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpActionCell.swift; sourceTree = "<group>"; };
 		BB4EFBE5245A1DF900892318 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB579FBA246C978700AD6933 /* SignUpInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpInfo.swift; sourceTree = "<group>"; };
 		BBB1A6FD2458CF7E00731CAB /* CourtControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CourtControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB1A7002458CF7E00731CAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBB1A7022458CF7E00731CAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,13 +73,23 @@
 		BBB1A70C2458CF8100731CAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBB1A70E2458CF8100731CAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBCF1432245A29530067737F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		C654D0926086016261F934C0 /* Pods-Networking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Networking.debug.xcconfig"; path = "Target Support Files/Pods-Networking/Pods-Networking.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BB121A2C246C9451001AA9AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7152EB08A8536FF17C986FCF /* Pods_Networking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BBB1A6FA2458CF7E00731CAB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB121A36246C9451001AA9AE /* Networking.framework in Frameworks */,
 				0AAAD2003841083D008359E8 /* Pods_CourtControl.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -54,8 +101,36 @@
 			isa = PBXGroup;
 			children = (
 				834A7E74E26BCD0AB659BB94 /* Pods_CourtControl.framework */,
+				6F7C482C18A3E46D9FBB7482 /* Pods_Networking.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB121A30246C9451001AA9AE /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				BB121A3C246C9475001AA9AE /* Classes */,
+				BB121A31246C9451001AA9AE /* Networking.h */,
+				BB121A32246C9451001AA9AE /* Info.plist */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		BB121A3C246C9475001AA9AE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BB121A3D246C947E001AA9AE /* Identity */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BB121A3D246C947E001AA9AE /* Identity */ = {
+			isa = PBXGroup;
+			children = (
+				BB121A3E246C94D0001AA9AE /* SignUpService.swift */,
+				BB579FBA246C978700AD6933 /* SignUpInfo.swift */,
+			);
+			path = Identity;
 			sourceTree = "<group>";
 		};
 		BB1A0FF5245A1BDC0069B81F /* Classes */ = {
@@ -102,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				BBB1A6FF2458CF7E00731CAB /* CourtControl */,
+				BB121A30246C9451001AA9AE /* Networking */,
 				BBB1A6FE2458CF7E00731CAB /* Products */,
 				F224A58E7221DD725BED4E03 /* Pods */,
 				2CEC2B65AF5924CB82F68810 /* Frameworks */,
@@ -112,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				BBB1A6FD2458CF7E00731CAB /* CourtControl.app */,
+				BB121A2F246C9451001AA9AE /* Networking.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,13 +208,45 @@
 			children = (
 				8D43A774E94064BCEF976C4E /* Pods-CourtControl.debug.xcconfig */,
 				0229FDBE5F74AFC29F1BDB7D /* Pods-CourtControl.release.xcconfig */,
+				C654D0926086016261F934C0 /* Pods-Networking.debug.xcconfig */,
+				2EDC4A79F355E376C1B23354 /* Pods-Networking.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		BB121A2A246C9451001AA9AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB121A33246C9451001AA9AE /* Networking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		BB121A2E246C9451001AA9AE /* Networking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB121A3B246C9451001AA9AE /* Build configuration list for PBXNativeTarget "Networking" */;
+			buildPhases = (
+				EEDB0D1F2326F4411CA8A075 /* [CP] Check Pods Manifest.lock */,
+				BB121A2A246C9451001AA9AE /* Headers */,
+				BB121A2B246C9451001AA9AE /* Sources */,
+				BB121A2C246C9451001AA9AE /* Frameworks */,
+				BB121A2D246C9451001AA9AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Networking;
+			productName = Networking;
+			productReference = BB121A2F246C9451001AA9AE /* Networking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		BBB1A6FC2458CF7E00731CAB /* CourtControl */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBB1A7112458CF8100731CAB /* Build configuration list for PBXNativeTarget "CourtControl" */;
@@ -147,10 +256,12 @@
 				BBB1A6FA2458CF7E00731CAB /* Frameworks */,
 				BBB1A6FB2458CF7E00731CAB /* Resources */,
 				47ED5F29FC9AA79BF03F0187 /* [CP] Embed Pods Frameworks */,
+				BB121A38246C9451001AA9AE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BB121A35246C9451001AA9AE /* PBXTargetDependency */,
 			);
 			name = CourtControl;
 			productName = CourtControl;
@@ -167,6 +278,10 @@
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = Homecoding;
 				TargetAttributes = {
+					BB121A2E246C9451001AA9AE = {
+						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
+					};
 					BBB1A6FC2458CF7E00731CAB = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
@@ -186,11 +301,19 @@
 			projectRoot = "";
 			targets = (
 				BBB1A6FC2458CF7E00731CAB /* CourtControl */,
+				BB121A2E246C9451001AA9AE /* Networking */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		BB121A2D246C9451001AA9AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BBB1A6FB2458CF7E00731CAB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -243,9 +366,40 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CourtControl/Pods-CourtControl-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		EEDB0D1F2326F4411CA8A075 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Networking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BB121A2B246C9451001AA9AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB121A3F246C94D0001AA9AE /* SignUpService.swift in Sources */,
+				BB579FBB246C978700AD6933 /* SignUpInfo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BBB1A6F92458CF7E00731CAB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -261,6 +415,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB121A35246C9451001AA9AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB121A2E246C9451001AA9AE /* Networking */;
+			targetProxy = BB121A34246C9451001AA9AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BBB1A7062458CF7E00731CAB /* Main.storyboard */ = {
@@ -282,6 +444,67 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		BB121A39246C9451001AA9AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C654D0926086016261F934C0 /* Pods-Networking.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7W9W6Y2AXQ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Networking/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.homecoding.CourtControl.Networking;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BB121A3A246C9451001AA9AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EDC4A79F355E376C1B23354 /* Pods-Networking.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7W9W6Y2AXQ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Networking/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.homecoding.CourtControl.Networking;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		BBB1A70F2458CF8100731CAB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -402,6 +625,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8D43A774E94064BCEF976C4E /* Pods-CourtControl.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7W9W6Y2AXQ;
@@ -422,6 +646,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0229FDBE5F74AFC29F1BDB7D /* Pods-CourtControl.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7W9W6Y2AXQ;
@@ -441,6 +666,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BB121A3B246C9451001AA9AE /* Build configuration list for PBXNativeTarget "Networking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB121A39246C9451001AA9AE /* Debug */,
+				BB121A3A246C9451001AA9AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BBB1A6F82458CF7E00731CAB /* Build configuration list for PBXProject "CourtControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

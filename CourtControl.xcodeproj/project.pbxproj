@@ -8,18 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		0AAAD2003841083D008359E8 /* Pods_CourtControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 834A7E74E26BCD0AB659BB94 /* Pods_CourtControl.framework */; };
+		BB38724124635313003DFBF7 /* SignUpInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB38724024635313003DFBF7 /* SignUpInfoCell.swift */; };
+		BB387244246353D2003DFBF7 /* ReuseIdentifying.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB387243246353D2003DFBF7 /* ReuseIdentifying.swift */; };
+		BB38724624635497003DFBF7 /* SignUpActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB38724524635497003DFBF7 /* SignUpActionCell.swift */; };
 		BB4EFBE6245A1DF900892318 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4EFBE5245A1DF900892318 /* ViewController.swift */; };
 		BBB1A7012458CF7E00731CAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB1A7002458CF7E00731CAB /* AppDelegate.swift */; };
 		BBB1A7032458CF7E00731CAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB1A7022458CF7E00731CAB /* SceneDelegate.swift */; };
 		BBB1A7082458CF7E00731CAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBB1A7062458CF7E00731CAB /* Main.storyboard */; };
 		BBB1A70A2458CF8100731CAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBB1A7092458CF8100731CAB /* Assets.xcassets */; };
 		BBB1A70D2458CF8100731CAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBB1A70B2458CF8100731CAB /* LaunchScreen.storyboard */; };
+		BBCF1433245A29530067737F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCF1432245A29530067737F /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0229FDBE5F74AFC29F1BDB7D /* Pods-CourtControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourtControl.release.xcconfig"; path = "Target Support Files/Pods-CourtControl/Pods-CourtControl.release.xcconfig"; sourceTree = "<group>"; };
 		834A7E74E26BCD0AB659BB94 /* Pods_CourtControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CourtControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D43A774E94064BCEF976C4E /* Pods-CourtControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourtControl.debug.xcconfig"; path = "Target Support Files/Pods-CourtControl/Pods-CourtControl.debug.xcconfig"; sourceTree = "<group>"; };
+		BB38724024635313003DFBF7 /* SignUpInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpInfoCell.swift; sourceTree = "<group>"; };
+		BB387243246353D2003DFBF7 /* ReuseIdentifying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseIdentifying.swift; sourceTree = "<group>"; };
+		BB38724524635497003DFBF7 /* SignUpActionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpActionCell.swift; sourceTree = "<group>"; };
 		BB4EFBE5245A1DF900892318 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BBB1A6FD2458CF7E00731CAB /* CourtControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CourtControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB1A7002458CF7E00731CAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +35,7 @@
 		BBB1A7092458CF8100731CAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBB1A70C2458CF8100731CAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBB1A70E2458CF8100731CAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBCF1432245A29530067737F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,7 @@
 		BB1A0FF5245A1BDC0069B81F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				BB38724224635389003DFBF7 /* Shared */,
 				BB1A0FF8245A1CDA0069B81F /* Identity */,
 				BBB1A7062458CF7E00731CAB /* Main.storyboard */,
 				BBB1A70B2458CF8100731CAB /* LaunchScreen.storyboard */,
@@ -66,8 +75,27 @@
 		BB1A0FF8245A1CDA0069B81F /* Identity */ = {
 			isa = PBXGroup;
 			children = (
+				BBCF1432245A29530067737F /* SignUpViewController.swift */,
+				BB38724024635313003DFBF7 /* SignUpInfoCell.swift */,
+				BB38724524635497003DFBF7 /* SignUpActionCell.swift */,
 			);
 			path = Identity;
+			sourceTree = "<group>";
+		};
+		BB38724224635389003DFBF7 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				BB857B1B2464A9C40033D02B /* Protocols */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		BB857B1B2464A9C40033D02B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				BB387243246353D2003DFBF7 /* ReuseIdentifying.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		BBB1A6F42458CF7E00731CAB = {
@@ -223,8 +251,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB4EFBE6245A1DF900892318 /* ViewController.swift in Sources */,
+				BB38724124635313003DFBF7 /* SignUpInfoCell.swift in Sources */,
+				BB387244246353D2003DFBF7 /* ReuseIdentifying.swift in Sources */,
 				BBB1A7012458CF7E00731CAB /* AppDelegate.swift in Sources */,
+				BB38724624635497003DFBF7 /* SignUpActionCell.swift in Sources */,
 				BBB1A7032458CF7E00731CAB /* SceneDelegate.swift in Sources */,
+				BBCF1433245A29530067737F /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
